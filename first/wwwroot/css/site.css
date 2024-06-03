@@ -12,12 +12,13 @@ html {
     align-items:center;
     justify-content:center;
     padding:20px;
+    margin-right:100px;
 
 }
 .photo {
     width: 200px;
     height: auto;
-    margin-right:100px;
+    margin-right:200px;
 }
 .Icon {
     
@@ -25,13 +26,13 @@ html {
     display: inline-block;
     margin-top: 10px;
     font-size: 1.5em;
-    color: #0077B5; 
+    color: white; 
     text-decoration: none;
     transition: color 0.3s;
 }
 
 .linkedin-icon:hover {
-    color: #005582; 
+    color:aqua; 
 }
 
 
@@ -52,13 +53,17 @@ html {
 }
 
 header {
-    background-color: aquamarine;
+    background-color: black;
     padding: 10px;
 }
 
 footer{
     align-content:center;
-    background-color:aquamarine;
+    background-color:black;
+    color:white;
+    font-size:20px;
+    padding:10px;
+    text-align:center;
 }
 
 @media (min-width: 768px) {
@@ -75,5 +80,5 @@ html {
 
 body {
   margin-bottom: 60px;
-  background-color:;
+  background-color:cadetblue;
 }

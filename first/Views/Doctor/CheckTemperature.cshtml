@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Check Temperature";
+}
+
+<h2>Check Temperature</h2>
+
+<form asp-action="CheckTemperature" method="post">
+    <div>
+        <label for="temperature">Enter Temperature:</label>
+        <input type="number" step="0.1" name="temperature" id="temperature" />
+    </div>
+    <div>
+        <label>Scale:</label>
+        <input type="radio" name="scale" value="Celsius" checked /> Celsius
+        <input type="radio" name="scale" value="Fahrenheit" /> Fahrenheit
+    </div>
+    <div>
+        <input type="submit" value="Check" />
+    </div>
+</form>
+
+@if (ViewBag.Message != null)
+{
+    <div>
+        <strong>@ViewBag.Message</strong>
+    </div>
+}
