@@ -1,0 +1,32 @@
+﻿@model first.Models.GameModel
+
+@{
+    ViewData["Title"] = "Number Guessing Game";
+}
+
+<h2><center>Match your number with Randomly Generated number </center></h2>
+
+<br />
+<br />
+<form asp-action="Index" method="post">
+    <div>
+
+            <label for="userGuess"><b>Enter your guess:[1 to 100]</b></label>
+        <br />
+        <br />
+        <input type="number" class="form-control" id="userGuess" name="UserGuess" required min="1" max="100" style="max-width:100px;"/>
+    </div>
+    <br />
+    <br />
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+
+@if (Model.Message != null)
+{
+    <div class="alert alert-info-mt3" style="max-width:200px;">
+        @Model.Message
+       
+    </div>
+}
+
