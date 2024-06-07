@@ -25,3 +25,14 @@ This portfolio project is developed using ASP.NET Core MVC framework. It serves 
 - Bootstrap (for responsive design)
 
 Thank you for visiting my portfolio project! I hope you find it informative and engaging.
+OUTPUT SCREENSHOT:
+HOME PAGE:
+![image](https://github.com/myusername86/MVC-Task1-Portfolio/assets/149319685/ff6e6179-af5e-4e29-b6b3-2d6f10c3ae7b)
+CHECKTEMPERATURE LINK:
+![image](https://github.com/myusername86/MVC-Task1-Portfolio/assets/149319685/4ae56ae2-498d-4f75-ad84-c0add1e94e5f)
+
+GUESS LINK:
+![image](https://github.com/myusername86/MVC-Task1-Portfolio/assets/149319685/511d1b99-5507-4a61-a9f5-095a20d6a640)
+
+![image](https://github.com/myusername86/MVC-Task1-Portfolio/assets/149319685/dccfccb6-f963-4020-83f3-0be5c1eedc74)
+
